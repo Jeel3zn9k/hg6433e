@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_server" android:title="@string/menu_server" />
+    <item android:id="@+id/action_view" android:title="@string/menu_view" />
+    <item android:id="@+id/action_keep_screen" android:title="@string/menu_keep_screen" android:checkable="true" />
+    <item android:id="@+id/action_reload" android:title="@string/menu_reload" />
+</menu>

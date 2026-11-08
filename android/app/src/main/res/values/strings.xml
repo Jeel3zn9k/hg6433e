@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Табло — пульт</string>
+    <string name="menu_server">Адрес сервера…</string>
+    <string name="menu_view">Вид…</string>
+    <string name="menu_keep_screen">Экран всегда включён</string>
+    <string name="menu_reload">Обновить</string>
+    <string name="error_title">Нет связи с табло</string>
+    <string name="error_unknown">неизвестная ошибка</string>
+    <string name="error_detail_fmt">Не удалось открыть %1$s\n\nПричина: %2$s\n\nПроверьте:\n• программа «Табло» запущена на компьютере;\n• веб-сервер включён (Настройки → Режим разработчика → «Включить веб-сервер» → Применить);\n• телефон и компьютер в одной сети (один Wi-Fi);\n• адрес и порт (8642) введены верно.</string>
+    <string name="btn_retry">Повторить</string>
+    <string name="btn_server">Адрес сервера</string>
+    <string name="server_dialog_msg">Адрес компьютера с программой «Табло» — IP и порт веб-сервера (по умолчанию 8642).</string>
+    <string name="server_hint">http://192.168.1.50:8642</string>
+    <string-array name="view_names">
+        <item>Пульт телефона (крупные кнопки)</item>
+        <item>Панель оператора (вид с ПК)</item>
+        <item>Витрина (только табло, без управления)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+// Корневой сборочный файл. Плагины объявлены здесь, применяются в :app.
+plugins {
+    id 'com.android.application' version '8.1.4' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+}
